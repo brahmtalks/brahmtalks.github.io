@@ -2256,10 +2256,35 @@
     height: auto;
   }
   .image-23 {
-    top: -80px;
+    top: 0px;
+    width: 350px;
+    margin-top: -30px;
+    margin-left: -76px;
+  }
+  .contain {
+    display: block;
+    height: 100vh;
+    padding-top: 0px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
   }
   .contain.sticky {
     overflow: hidden;
+  }
+  .firstcard {
+    left: 2%;
+    margin-right: -50vw;
   }
   .maindiv {
     width: 1200vw;
@@ -2269,6 +2294,13 @@
   }
   .grid-5.hide {
     overflow: hidden;
+    height: 100%;
+    margin-top: 0px;
+    padding-top: 125px;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
   }
   .mainpic {
     width: 60%;
@@ -2364,6 +2396,10 @@
   }
   .body {
     background-color: #e8e8e8;
+  }
+  .linkk {
+    left: -3%;
+    margin-left: 5%;
   }
   .heading-9 {
     font-size: 35px;
